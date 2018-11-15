@@ -1,0 +1,97 @@
+c:\users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.exe.config
+c:\users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Properties.Resources.resources
+c:\users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csproj.GenerateResource.Cache
+c:\users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.exe
+c:\users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.pdb
+c:\users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.exe
+c:\users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.pdb
+c:\users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csprojResolveAssemblyReference.cache
+C:\Users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Monitor.resources
+C:\Users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Sql_query.resources
+C:\Users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\bin\Debug\Mirabeau.MsSql.Library.dll
+C:\Users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\bin\Debug\Mirabeau.Sql.dll
+C:\Users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\bin\Debug\Mirabeau.Sql.xml
+C:\Users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Chart_Show.resources
+C:\Users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\bin\Debug\WHC.Pager.WinControl.dll
+C:\Users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\bin\Debug\WHC.Pager.Entity.dll
+C:\Users\zhangyufei\documents\visual studio 2013\Projects\PLC_POSITION\PLC_POSITION\bin\Debug\Aspose.Cells.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.exe.config
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.exe
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.pdb
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.exe
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.pdb
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\Mirabeau.MsSql.Library.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\Mirabeau.Sql.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\WHC.Pager.WinControl.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\WHC.Pager.Entity.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\Aspose.Cells.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\Mirabeau.Sql.xml
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Chart_Show.resources
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Monitor.resources
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Properties.Resources.resources
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Sql_query.resources
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csproj.GenerateResource.Cache
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\AxInterop.ActUtlTypeLib.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\Interop.ACTMULTILib.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\Interop.ActProgTypeLib.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\AxInterop.ACTMULTILib.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csproj.ResolveComReference.cache
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\Interop.ACTMULTILib.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\bin\Debug\AxInterop.ACTMULTILib.dll
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csprojResolveAssemblyReference.cache
+E:\SVN目录\化工线项目\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.RealTimeChart.resources
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.exe.config
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.exe
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.pdb
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.exe
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.pdb
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\bin\Debug\WHC.Pager.WinControl.dll
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\bin\Debug\WHC.Pager.Entity.dll
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\bin\Debug\Aspose.Cells.dll
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Chart_Show.resources
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Monitor.resources
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Properties.Resources.resources
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.RealTimeChart.resources
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Sql_query.resources
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csproj.GenerateResource.Cache
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csproj.ResolveComReference.cache
+C:\Users\zhangyufei\Desktop\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.WaitingForm.resources
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.exe.config
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csproj.ResolveComReference.cache
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.exe
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.pdb
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.exe
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.pdb
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\bin\Debug\WHC.Pager.Entity.dll
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\bin\Debug\Aspose.Cells.dll
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Chart_Show.resources
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Monitor.resources
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Properties.Resources.resources
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.RealTimeChart.resources
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Sql_query.resources
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.WaitingForm.resources
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csproj.GenerateResource.Cache
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.WebBrow_Chart.resources
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csprojResolveAssemblyReference.cache
+C:\Users\zhangyufei\Desktop\2018.8.17桌面整理\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.WebChoose.resources
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.exe.config
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csproj.ResolveComReference.cache
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.exe
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.pdb
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.exe
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\bin\Debug\PLC_POSITION.pdb
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Chart_Show.resources
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Monitor.resources
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Properties.Resources.resources
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.RealTimeChart.resources
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.Sql_query.resources
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.WaitingForm.resources
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.WebBrow_Chart.resources
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.WebChoose.resources
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csproj.GenerateResource.Cache
+E:\工作目录\工作代码区域\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csprojResolveAssemblyReference.cache

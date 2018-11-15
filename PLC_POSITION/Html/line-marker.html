@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+   </head>
+   <body style="height: 100%; margin: 0">
+       <div id="container" style="height: 100%"></div>
+   <script src="../Js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+   <script type="text/javascript">
+      
+       function ChartProduce(st0, st1, st2, st3) {
+
+           alert(st0.toString())
+
+
+           var X_values = st0.split('*');
+           var Y_values = st1.split('*');
+           
+           var dom = document.getElementById("container");
+           var myChart = echarts.init(dom);
+           var app = {};
+           option = null;
+
+           option = {
+               title: {
+                   text: 'DES化工线历史记录查询',
+                   subtext: '纯属虚构'
+               },
+               tooltip: {
+                   trigger: 'axis'
+               },
+               legend: {
+                   data: ['流量监控']
+               },
+               toolbox: {
+                   show: true,
+                   feature: {
+                       dataZoom: {
+                           yAxisIndex: 'none'
+                       },
+                       dataView: { readOnly: false },
+                       magicType: { type: ['line', 'bar'] },
+                       restore: {},
+                       saveAsImage: {}
+                   }
+               },
+               xAxis: {
+                   type: 'category',
+                   boundaryGap: false,
+                   data: X_values
+               },
+               yAxis: {
+                   type: 'value',
+                   axisLabel: {
+                       formatter: '{value} L/min'
+                   }
+               },
+               dataZoom: [
+                   {
+                       show: true,
+                       realtime: true,
+                       start: 0,
+                       end: 10
+                   },
+                   {
+                       type: 'inside',
+                       realtime: true,
+                       start: 10,
+                       end: 20
+                   }
+               ],
+               series: [
+                   {
+                       name: '流量监控',
+                       type: 'line',
+                       data: Y_values,
+
+                       markLine: {
+                           data: [
+                               { yAxis: 15 },
+                               { type: 'average', name: '平均值' }
+                           ]
+                       }
+                   }
+               ]
+           };;
+           if (option && typeof option === "object") {
+               myChart.setOption(option, true);
+           }
+       }
+   </script>
+   </body>
+</html>
