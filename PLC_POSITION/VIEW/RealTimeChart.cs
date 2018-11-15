@@ -224,6 +224,7 @@ namespace PLC_POSITION.VIEW
         //timer1执行方法
        
         private int selectIndex = 0;
+        
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -302,10 +303,12 @@ namespace PLC_POSITION.VIEW
             button4.Enabled = false;
         }
 
+        //复选曲线
         private void button5_Click(object sender, EventArgs e)
         {
-            RealTimeChart realTimeChart = new RealTimeChart();
-            realTimeChart.Show(this);
+            Series series2 = new Series();
+            chart1.Series.Add(series2);
+            series2.Points.AddXY(DateTime.Now, (float_temp[selectIndex]+2));
         }
     }
 }
