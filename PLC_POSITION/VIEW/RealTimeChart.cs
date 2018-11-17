@@ -279,18 +279,14 @@ namespace PLC_POSITION.VIEW
             //控制时间画一次图
             //if (timercount_60s>=1)
             //{
-            
-            
             GetDataFromSql();
-
-
             //遍历曲线个数
             for (int i = 0; i < seriesArray.Count; i++)
             {
                 seriesArray[i].Points.AddXY(DateTime.Now, float_temp[SelectedIDArray[i]]);
             }
             //计算平均值
-            CalAverage(seriesArray);
+            CalAverage(seriesArray[0]);
 
             // timercount_60s = 0;
             //}
@@ -320,7 +316,7 @@ namespace PLC_POSITION.VIEW
             try
             {
                 double yValue = area.AxisY.PixelPositionToValue(e.Y);
-                label6.Text = string.Format("{0}", yValue.ToString().Substring(0, 4)) + " L/min";
+                label6.Text = string.Format("{0}", yValue.ToString().Substring(0, 4));
             }
             catch (Exception)
             {
