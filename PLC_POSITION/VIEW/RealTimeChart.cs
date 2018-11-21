@@ -151,6 +151,9 @@ namespace PLC_POSITION.VIEW
                 MessageBox.Show("输入了非法上下限的值，上下限应该为数字");
                 return;
             }
+            //屏蔽选择
+            comboBox1.Enabled = false;
+            comboBox2.Enabled = false;
             //设置曲线标题
             chart1.Series[0].LegendText = comboBox1.Text + "-" + comboBox2.Text + "-" + comboBox3.Text+"-"+comboBox4.Text;
 
@@ -304,9 +307,11 @@ namespace PLC_POSITION.VIEW
         //清楚按钮方法
         private void button3_Click(object sender, EventArgs e)
         {
-            chart1.Series[0].Points.Clear();
-            chart1.ChartAreas[0].AxisY.StripLines.Clear();
-
+            //chart1.Series[i].Points.Clear();
+            // chart1.ChartAreas[0].AxisY.StripLines.Clear();
+            RealTimeChart newformChart=new RealTimeChart();
+            newformChart.Show();
+            this.Hide();
         }
 
         //鼠标移动事件 显示实时坐标值
