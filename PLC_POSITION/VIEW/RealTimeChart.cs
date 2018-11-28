@@ -151,6 +151,8 @@ namespace PLC_POSITION.VIEW
                 MessageBox.Show("输入了非法上下限的值，上下限应该为数字");
                 return;
             }
+            //添加曲线进曲线名字列表
+            SelectedName.Add(comboBox1.Text + "-" + comboBox2.Text + "-" + comboBox3.Text + "-" + comboBox4.Text);
             //屏蔽选择
             comboBox1.Enabled = false;
             comboBox2.Enabled = false;
@@ -345,10 +347,17 @@ namespace PLC_POSITION.VIEW
         }
 
         List<Series> seriesArray = new List<Series>();
-        List<int> SelectedIDArray=new List<int>();
+        List<int> SelectedIDArray = new List<int>();
+        List<string> SelectedName = new List<string>();
         //新增复选曲线
         private void button5_Click(object sender, EventArgs e)
         {
+            //判断是否已有该曲线
+            if (SelectedName.Contains(comboBox1.Text + "-" + comboBox2.Text + "-" + comboBox3.Text + "-" + comboBox4.Text))
+            {
+                MessageBox.Show("已存在该线体");
+                return;
+            }
             //新建实例
             Series series2 = new Series();
             series2.ChartType = SeriesChartType.Line;
@@ -358,6 +367,8 @@ namespace PLC_POSITION.VIEW
             chart1.Series.Add(series2);
             chart1.Series[seriesArray.Count-1].LegendText = comboBox1.Text + "-" + comboBox2.Text + "-" + comboBox3.Text+"-"+comboBox4.Text;
             SelectedIDArray.Add(SeachTypeId()); 
+            //增加名字到列表
+            SelectedName.Add(comboBox1.Text + "-" + comboBox2.Text + "-" + comboBox3.Text + "-" + comboBox4.Text);
         }
 
         //查找TypeId号
