@@ -82,8 +82,6 @@ namespace PLC_POSITION
             }
             else
             {
-
-
                 string BeforeDate = dateTimePicker1.Text;
                 string AfterDate = dateTimePicker2.Text;
                 if (comboBox4.Text != "无")

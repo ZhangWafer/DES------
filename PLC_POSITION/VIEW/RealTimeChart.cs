@@ -155,7 +155,6 @@ namespace PLC_POSITION.VIEW
             SelectedName.Add(comboBox1.Text + "-" + comboBox2.Text + "-" + comboBox3.Text + "-" + comboBox4.Text);
             //屏蔽选择
             comboBox1.Enabled = false;
-            comboBox2.Enabled = false;
             //设置曲线标题
             chart1.Series[0].LegendText = comboBox1.Text + "-" + comboBox2.Text + "-" + comboBox3.Text+"-"+comboBox4.Text;
 
@@ -302,8 +301,10 @@ namespace PLC_POSITION.VIEW
         private void button2_Click(object sender, EventArgs e)
         {
             timer1.Stop();
-            this.Owner.Visible = true;
+            //this.Owner.Visible = true;
             this.Visible = false;
+            Monitor mainpage=new Monitor();
+            mainpage.Show();
         }
 
         //清楚按钮方法
