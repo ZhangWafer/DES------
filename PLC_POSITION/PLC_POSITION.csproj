@@ -72,6 +72,12 @@
     <Compile Include="VIEW\Chart_Show.Designer.cs">
       <DependentUpon>Chart_Show.cs</DependentUpon>
     </Compile>
+    <Compile Include="VIEW\DeadlineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\DeadlineForm.Designer.cs">
+      <DependentUpon>DeadlineForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIEW\Monitor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,12 @@
     <Compile Include="VIEW\WaitingForm.Designer.cs">
       <DependentUpon>WaitingForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="VIEW\WarningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEW\WarningForm.Designer.cs">
+      <DependentUpon>WarningForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIEW\WebBrow_Chart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +124,9 @@
     </Compile>
     <EmbeddedResource Include="VIEW\Chart_Show.resx">
       <DependentUpon>Chart_Show.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\DeadlineForm.resx">
+      <DependentUpon>DeadlineForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VIEW\Monitor.resx">
       <DependentUpon>Monitor.cs</DependentUpon>
@@ -134,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VIEW\WaitingForm.resx">
       <DependentUpon>WaitingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEW\WarningForm.resx">
+      <DependentUpon>WarningForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VIEW\WebBrow_Chart.resx">
       <DependentUpon>WebBrow_Chart.cs</DependentUpon>

@@ -391,6 +391,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -5547,7 +5548,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(591, 286);
+            this.button4.Location = new System.Drawing.Point(498, 288);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(147, 46);
             this.button4.TabIndex = 436;
@@ -5559,7 +5560,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(384, 286);
+            this.button2.Location = new System.Drawing.Point(291, 288);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 46);
             this.button2.TabIndex = 435;
@@ -5571,7 +5572,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(177, 286);
+            this.button1.Location = new System.Drawing.Point(84, 288);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 46);
             this.button1.TabIndex = 434;
@@ -5583,7 +5584,7 @@
             // 
             this.button3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(798, 286);
+            this.button3.Location = new System.Drawing.Point(705, 288);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(147, 46);
             this.button3.TabIndex = 437;
@@ -5595,13 +5596,25 @@
             // 
             this.button5.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.Location = new System.Drawing.Point(1005, 286);
+            this.button5.Location = new System.Drawing.Point(1107, 288);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(147, 46);
             this.button5.TabIndex = 438;
             this.button5.Text = "EXCLE";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button6.Location = new System.Drawing.Point(909, 288);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(147, 46);
+            this.button6.TabIndex = 439;
+            this.button6.Text = "上下限设定";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Monitor
             // 
@@ -5610,6 +5623,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(1364, 361);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
@@ -6008,6 +6022,7 @@
         private System.Windows.Forms.Label label93;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 

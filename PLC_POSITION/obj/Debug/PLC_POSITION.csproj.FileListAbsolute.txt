@@ -111,3 +111,6 @@ E:\GitHub\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.WaitingForm.reso
 E:\GitHub\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.WebBrow_Chart.resources
 E:\GitHub\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.WebChoose.resources
 E:\GitHub\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csproj.GenerateResource.Cache
+E:\GitHub\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.csprojResolveAssemblyReference.cache
+E:\GitHub\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.DeadlineForm.resources
+E:\GitHub\PLC_POSITION\PLC_POSITION\obj\Debug\PLC_POSITION.VIEW.WarningForm.resources

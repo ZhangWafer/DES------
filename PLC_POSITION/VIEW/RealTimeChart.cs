@@ -27,6 +27,7 @@ namespace PLC_POSITION.VIEW
         {
             //读取出参考表
             referDataTable = SqlHelper.ExecuteDataTable("select * from Refer_Table");
+            //
         }
 
         //combobox选择器选择改变方法
@@ -139,18 +140,13 @@ namespace PLC_POSITION.VIEW
         private void button1_Click(object sender, EventArgs e)
         {
             //填入必填项
-            if (comboBox1.Text == "" || comboBox2.Text == "" || comboBox3.Text == "" || comboBox5.Text == "" ||
-                textBox1.Text == "" || textBox2.Text == "")
+            if (comboBox1.Text == "" || comboBox2.Text == "" || comboBox3.Text == "" || comboBox5.Text == "" )
             {
                 MessageBox.Show("必选项不得为空", "提示");
                 return;
             }
-            //判断是否为数字
-            if (!(IsNumberic(textBox1.Text) && (IsNumberic(textBox2.Text))))
-            {
-                MessageBox.Show("输入了非法上下限的值，上下限应该为数字");
-                return;
-            }
+
+
             //添加曲线进曲线名字列表
             SelectedName.Add(comboBox1.Text + "-" + comboBox2.Text + "-" + comboBox3.Text + "-" + comboBox4.Text);
             //屏蔽选择
@@ -179,12 +175,16 @@ namespace PLC_POSITION.VIEW
             Series series = chart1.Series[0];
             seriesArray.Add(series);
             SelectedIDArray.Add(selectIndex);
+            //数据库查询表
+            DataTable lineTable = SqlHelper.ExecuteDataTable("select * from DeadlineTable");
+            DataRow[] lineResult = lineTable.Select(string.Format("id='{0}'",selectIndex));
+            string downlineVal = lineResult[0][1].ToString();
+            string uplineVal = lineResult[0][2].ToString();
+            bigDownLine =downlineVal;
+            bigUpLine = uplineVal;
             //表格初始化
-            ChartInit();
-
-
-
-
+            //画出上下限的线
+            ChartInit(downlineVal,uplineVal);
             //根据选择的时间间隔设定定时器频率
             timer1.Interval = Convert.ToInt16(comboBox5.Text)*1000;
             //启动定时器
@@ -198,7 +198,7 @@ namespace PLC_POSITION.VIEW
 
 
         //图表初始化
-        private void ChartInit()
+        private void ChartInit(string downline,string upline)
         {
             Series series = chart1.Series[0];
             series.ChartType = SeriesChartType.Line;
@@ -217,21 +217,21 @@ namespace PLC_POSITION.VIEW
             //下限
             StripLine sl1 = new StripLine();
             sl1.BackColor = System.Drawing.Color.Red; //默认为白色，看不见
-            sl1.IntervalOffset = double.Parse(textBox1.Text); //
+            sl1.IntervalOffset = double.Parse(downline); 
             sl1.StripWidth = 0.001;
-            sl1.Text = "下限: " + textBox1.Text;
+            sl1.Text = "下限: " + downline;
             sl1.TextAlignment = StringAlignment.Far;
             chart1.ChartAreas[0].AxisY.StripLines.Add(sl1);
             //设置y轴的范围
-            chart1.ChartAreas[0].AxisY.Maximum = Convert.ToDouble(textBox2.Text) + Convert.ToDouble(textBox2.Text)/4;
-            chart1.ChartAreas[0].AxisY.Minimum = Convert.ToDouble(textBox1.Text) - 1;
+            chart1.ChartAreas[0].AxisY.Maximum = Convert.ToDouble(upline) + Convert.ToDouble(upline)/4;
+            chart1.ChartAreas[0].AxisY.Minimum = Convert.ToDouble(downline) - 1;
 
             //上限
             StripLine sl2 = new StripLine();
             sl2.BackColor = System.Drawing.Color.Red; //默认为白色，看不见
-            sl2.IntervalOffset = double.Parse(textBox2.Text); //
+            sl2.IntervalOffset = double.Parse(upline); //
             sl2.StripWidth = 0.001;
-            sl2.Text = "上限: " + textBox2.Text;
+            sl2.Text = "上限: " + upline;
             sl2.TextAlignment = StringAlignment.Far;
             chart1.ChartAreas[0].AxisY.StripLines.Add(sl2);
 
@@ -276,7 +276,9 @@ namespace PLC_POSITION.VIEW
         //timer1执行方法
 
         private int selectIndex = 0;
-
+        //设定全局的up,downline的值
+        private string bigDownLine ;
+        private string bigUpLine ;
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -284,9 +286,21 @@ namespace PLC_POSITION.VIEW
             //if (timercount_60s>=1)
             //{
             GetDataFromSql();
+
             //遍历曲线个数
             for (int i = 0; i < seriesArray.Count; i++)
             {
+
+                //做判断，一旦超出上下限，就弹框报警
+                double temptempdouble = Convert.ToDouble(float_temp[SelectedIDArray[i]]);
+                if (temptempdouble > Convert.ToDouble(bigUpLine) || temptempdouble < Convert.ToDouble(bigDownLine))
+                {
+                    timer1.Stop();
+                    timer1.Enabled = false;
+                    WarningForm warmForm = new WarningForm();
+                    warmForm.ShowDialog();
+
+                }
                 seriesArray[i].Points.AddXY(DateTime.Now, float_temp[SelectedIDArray[i]]);
             }
             //计算平均值
@@ -391,6 +405,11 @@ namespace PLC_POSITION.VIEW
             DataTable ResultTable = QueryRecordFromSql(Convert.ToInt16(registerNum[0][0]));
             selectIndex = Convert.ToInt16(registerNum[0][0]);
             return selectIndex;
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+
         }
 
     }

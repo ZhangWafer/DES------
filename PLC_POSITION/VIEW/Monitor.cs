@@ -170,5 +170,12 @@ namespace PLC_POSITION
             this.Visible = false;
             SHOWChart.ShowDialog(this);
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            DeadlineForm deadlineForm = new DeadlineForm();
+            this.Visible = false;
+            deadlineForm.ShowDialog(this);
+        }
     }
 }
